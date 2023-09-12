@@ -1,5 +1,5 @@
 # Formulario
-js
+javascript, 
 npm install,
 npm init -y,
 npm update,
