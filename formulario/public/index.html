@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <section class="formcarry-container">
+      <form action="http://localhost:3011/formulario" method="POST" enctype="multipart/form-data">
+        
+        <div class="formcarry-block">
+          <label for="fc-generated-1-name">Id</label>
+          <input type="text" name="id" id="fc-generated-1-name" placeholder="Id del libro" />
+        </div>
+
+        <div class="formcarry-block">
+          <label for="fc-generated-1-name">Nombre </label>
+          <input type="text" name="nombre" id="fc-generated-1-name" placeholder="Nombre" />
+        </div>
+        
+        <div class="formcarry-block">
+          <label for="fc-generated-1-email">Correo electronico </label>
+          <input type="email" name="email" id="fc-generated-1-email" placeholder="***@gmail.com" />
+        </div>
+        
+        <div class="formcarry-block">
+          <label for="fc-generated-1-telephone">Telefono</label>
+          <input type="tel" name="telephone" id="fc-generated-1-telephone" placeholder="123456789" />
+        </div>
+        
+        <div class="formcarry-block">
+          <label for="fc-generated-1-people">Informacion del libro</label>
+          <br>
+          <label for="fc-generated-1-name">titulo </label>
+          <input type="text" name="titulo" id="fc-generated-1-name" placeholder="Titulo del libro" />
+        </div>
+        
+        <div class="formcarry-block">
+          <label for="fc-generated-1-name">Autor </label>
+          <input type="text" name="autor" id="fc-generated-1-name" placeholder="Autor del libro" />
+        </div>
+
+        <div class="formcarry-block">
+          <label for="fc-generated-1-name">Editorial </label>
+          <input type="text" name="editorial" id="fc-generated-1-name" placeholder="Editorial del libro" />
+        </div>
+
+        <div class="formcarry-block">
+          <label for="fc-generated-1-name">Año </label>
+          <input type="text" name="year" id="fc-generated-1-name" placeholder="Año del libro" />
+        </div>
+        
+        <div class="formcarry-block">  
+          <button type="submit">Enviar </button>
+        </div>
+      
+      </form>
+    </section>
+    
+    <style>
+    </style>
+  </body>
+</html>

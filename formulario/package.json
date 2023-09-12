@@ -1,30 +1,21 @@
 {
   "name": "formulario",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "npm install, npm init -y, npm update, npm i -D nodemon, npm install --save-dev nodemon, npx cowsay javascript, npm i express, npm i multer, npm run dev,",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1",
-    "vite": "^4.4.5"
-  },
-  "main": "main.js",
-  "dependencies": {
-    "esbuild": "^0.18.20",
-    "express": "^4.18.2",
-    "multer": "^1.4.5-lts.1",
-    "nanoid": "^3.3.6",
-    "picocolors": "^1.0.0",
-    "postcss": "^8.4.29",
-    "rollup": "^3.29.0",
-    "source-map-js": "^1.0.2"
+    "dev": "nodemon index",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
 }
