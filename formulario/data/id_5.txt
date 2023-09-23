@@ -1,0 +1,8 @@
+id: 5
+nombre: Gucci
+email: nejyperi@mailinator.com
+telephone: 13214666
+titulo: sadfsa
+autor: asdfsa
+editorial: asdfsa
+año: asdfsadf
